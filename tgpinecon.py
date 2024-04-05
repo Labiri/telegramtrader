@@ -10,7 +10,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 TOKEN = os.environ.get("TELEGRAM_TOKEN")
-WEBHOOK_URL = "https://pineconnector.net/webhook/"
+WEBHOOK_URL = "https://webhook.pineconnector.com"
 DATABASE_URL = os.environ['DATABASE_URL']
 
 # States
